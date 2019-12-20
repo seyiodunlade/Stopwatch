@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>MY STOPWATCH APP</title>
+			
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+			<link rel="stylesheet" type="text/css" href="css/styling.css" />
+			<!--	CDNs	-->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+		</head>
+		<body>
+			
+			<div id="main" class="container">
+				<h2>Stopwatch App</h2>
+				
+				
+				<!--	SHOWS THE LAP COUNTER	-->
+				<div id="lap">
+					<span id="lapMinutesbox">00</span>:
+					<span id="lapSecondsbox">00</span>:
+					<span id="lapCentiSecondsbox">00</span>
+				</div>
+				
+				<!--	SHOWS THE TIME COUNTER	-->
+				<div id="time">
+					<span id="timeMinutesbox">00</span>:
+					<span id="timeSecondsbox">00</span>:
+					<span id="timeCentiSecondsbox">00</span>
+				</div>
+				
+				
+				<!--	SHOWS THE START, STOP, RESUME, RESET AND LAP BUTTONS	-->
+				<div id="buttonsContainer" class="row">
+					<div class="col-2 offset-4" id="buttons">
+						<div id="startbutton" class="button"> 
+							Start
+						</div>
+						<div id="stopbutton" class="button"> 
+							Stop
+						</div>
+						<div id="resumebutton" class="button"> 
+							Resume
+						</div>
+					</div>
+					
+					
+					<div class="col-2" id="buttons">
+						<div id="lapbutton" class="button"> 
+							Lap
+						</div>
+						<div id="resetbutton" class="button"> 
+							Reset
+						</div>
+						
+					</div>
+				</div>
+				
+				<div id="lapBox">
+				
+				</div>
+			</div>
+			
+				
+			
+			<script src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+			<script src="js/script.js"></script>
+		</body>
+	</html>
